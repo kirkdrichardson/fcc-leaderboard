@@ -1,22 +1,40 @@
 html, body {
-  background-color: #222; }
+  background-color: #333333; }
 
 .leaderboard {
   font-size: 2em;
-  color: white; }
+  text-align: center;
+  padding: 3%; }
   .leaderboard h1 {
-    color: red; }
+    color: #FDFFFC;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 2.1em;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold; }
   .leaderboard table {
     text-align: left;
-    background-color: #444; }
+    background-color: #333333;
+    box-shadow: 2px 3px 35px gray; }
   .leaderboard th {
-    text-align: center; }
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #FDFFFC;
+    text-align: center;
+    border: solid 1px white;
+    background-color: darkgreen;
+    padding: 20px; }
   .leaderboard td {
-    border: dashed 1px green; }
+    font-family: "Open Sans", sans-serif;
+    color: #999;
+    border: solid 1px white;
+    border-collapse: collapse; }
   .leaderboard img {
-    height: 40px;
-    width: 40px;
-    border-radius: 50%; }
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px; }
   .leaderboard .user {
     display: inline-block;
     margin-left: 20px; }

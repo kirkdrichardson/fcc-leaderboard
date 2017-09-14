@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'react-bootstrap';
 // const request = require('axios') // a promise based HTTP client for the browser and Node.js.
@@ -25,7 +24,6 @@ class CamperTable extends Component {
     const self = this;
     axios.get(url)
       .then(function(response) {
-        console.log(response);
         self.setState({
           campers: response.data
         });
@@ -50,7 +48,7 @@ class CamperTable extends Component {
     });
     return (
       <div className="leaderboard">
-        <h1>leaderboard</h1>
+        <h1>FCC LEADERBOARD</h1>
         <table>
           <Header sortUsers={this.sortUsers}/>
           <tbody>{ rows }</tbody>
@@ -65,11 +63,11 @@ const Header = (props) => {
     <thead>
       <tr className="row">
         <th className=" col-md-1 col-sm-1">{ "#" }</th>
-        <th className=" col-md-5 col-sm-5" >{ "Camper" }</th>
+        <th className=" col-md-5 col-sm-5" >{ "CAMPER" }</th>
         <th className=" pointsHd col-md-3 col-sm-3" id="recent"
-          onClick={props.sortUsers}>{ "Past 30 days" }</th>
+          onClick={props.sortUsers}>{ "PAST 30 DAYS" }</th>
         <th className=" pointsHd col-md-3 col-sm-3" id="alltime"
-          onClick={props.sortUsers}>{ "All time" }</th>
+          onClick={props.sortUsers}>{ "ALL TIME" }</th>
         </tr>
     </thead>
   );
