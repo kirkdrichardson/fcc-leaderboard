@@ -1,5 +1,10 @@
-$bkgColor: #222;
-$fontColor: white;
+$bkgColor: #333333;
+$fontColorBody: #999;
+$hdColor: #FDFFFC;
+$border: white;
+$fontTitle: 'Open Sans Condensed', sans-serif;
+$fontBody: 'Open Sans', sans-serif;
+
 
 html, body {
   background-color: $bkgColor;
@@ -7,29 +12,47 @@ html, body {
 
 .leaderboard {
   font-size: 2em;
-  color: $fontColor;
+  text-align: center;
+  padding: 3%;
 
   h1 {
-    color: red;
+    color: $hdColor;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 2.1em;
+    font-family: $fontTitle;
+    font-weight: bold;
   }
 
   table {
     text-align: left;
-    background-color: #444;
-
+    background-color: $bkgColor;
+    box-shadow: 2px 3px 35px gray;
   }
+
   th {
+    font-family: $fontTitle;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: $hdColor;
     text-align: center;
+    border: solid 1px $border;
+    background-color: darkgreen;
+    padding: 20px;
   }
 
   td {
-    border: dashed 1px green;
+    font-family: $fontBody;
+    color: $fontColorBody;
+    border: solid 1px $border;
+    border-collapse: collapse;
   }
 
   img {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
+    margin: 10px;
   }
 
   .user {
