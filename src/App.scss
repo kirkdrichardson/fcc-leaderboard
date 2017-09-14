@@ -1,0 +1,50 @@
+$bkgColor: #222;
+$fontColor: white;
+
+html, body {
+  background-color: $bkgColor;
+}
+
+.leaderboard {
+  text-align: center;
+  border: dashed 1px coral;
+}
+
+.leaderboard, h1 {
+  font-size: 2em;
+  color: $fontColor;
+}
+
+.header {
+  background-color: #444;
+}
+
+.tab {
+  border: dashed 1px green;
+}
+
+table {
+  text-align: left;
+}
+th {
+  text-align: center;
+}
+
+img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.user {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.points {
+  text-align: center;
+}
+
+.pointsHd {
+  cursor: pointer;
+}
