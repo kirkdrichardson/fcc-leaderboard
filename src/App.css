@@ -2,36 +2,25 @@ html, body {
   background-color: #222; }
 
 .leaderboard {
-  text-align: center;
-  border: dashed 1px coral; }
-
-.leaderboard, h1 {
   font-size: 2em;
   color: white; }
-
-.header {
-  background-color: #444; }
-
-.tab {
-  border: dashed 1px green; }
-
-table {
-  text-align: left; }
-
-th {
-  text-align: center; }
-
-img {
-  height: 40px;
-  width: 40px;
-  border-radius: 50%; }
-
-.user {
-  display: inline-block;
-  margin-left: 20px; }
-
-.points {
-  text-align: center; }
-
-.pointsHd {
-  cursor: pointer; }
+  .leaderboard h1 {
+    color: red; }
+  .leaderboard table {
+    text-align: left;
+    background-color: #444; }
+  .leaderboard th {
+    text-align: center; }
+  .leaderboard td {
+    border: dashed 1px green; }
+  .leaderboard img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%; }
+  .leaderboard .user {
+    display: inline-block;
+    margin-left: 20px; }
+  .leaderboard .points {
+    text-align: center; }
+  .leaderboard .pointsHd {
+    cursor: pointer; }
